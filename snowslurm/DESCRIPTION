@@ -1,0 +1,10 @@
+Package: snowslurm
+Type: Package
+Title: Extension of snow for clusters with the SLURM scheduler
+Version: 0.1
+Date: 2014-03-10
+Author: Andrew Raim, Aaron Knister
+Maintainer: Andrew Raim <andrew.raim@gmail.com>
+Description: Create a SNOW cluster on a distributed computer where SLURM is the scheduler. On some distributed computers, users do not have direct access to SSH into compute nodes to launch SNOW workers. This package is for machines running SLURM as the scheduler. It launches workers using SLURM commands, rather than SSH, ensuring that workers get assigned to resources allocated by the scheduler.
+License: GPL (>= 2)
+Depends: snow
